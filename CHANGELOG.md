@@ -1,3 +1,7 @@
+# Release 2.4.16
+
+None
+
 # Release 4.2.15
 
 ## What's Changed
