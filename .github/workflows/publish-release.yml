@@ -96,5 +96,5 @@ jobs:
             BUILD_VERSION=${{ env.TAG }}
             BUILD_ARCH=${{ matrix.arch.hass_name }}
           tags: |
-            ghcr.io/DTidey/hass-n8n-${{ matrix.arch.hass_name }}:${{ env.TAG }}
-            ghcr.io/DTidey/hass-n8n-${{ matrix.arch.hass_name }}:latest
+            ghcr.io/dtidey/hass-n8n-${{ matrix.arch.hass_name }}:${{ env.TAG }}
+            ghcr.io/dtidey/hass-n8n-${{ matrix.arch.hass_name }}:latest
